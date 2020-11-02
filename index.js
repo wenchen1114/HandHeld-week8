@@ -75,7 +75,7 @@ function render(){
     ctx.beginPath();
     ctx.shadowColor = 'rgba(255,103,103,0.05)';
     ctx.shadowBlur = 15;
-    ctx.fillStyle = "rgba(255,103,103,0.01)";
+    ctx.fillStyle = "rgba(255,103,103,0.001)";
     ctx.arc(p3.x, p3.y, 80, 0, Math.PI *2);
     ctx.fill();
 
