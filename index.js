@@ -31,7 +31,7 @@ canvas.addEventListener("mousemove", function(e){
     let x = e.clientX;
     let y = e.clientY;
     ctx.beginPath();
-    ctx.shadowColor = 'rgba(247,153,153,0.05)';
+    ctx.shadowColor = 'rgba(255,103,103,0.05)';
     ctx.shadowBlur = 15;
     ctx.fillStyle = "rgba(247,153,153,0.02)";
     ctx.arc(x, y, 30, 0, Math.PI *2);
@@ -75,7 +75,7 @@ function render(){
     ctx.beginPath();
     ctx.shadowColor = 'rgba(255,103,103,0.05)';
     ctx.shadowBlur = 15;
-    ctx.fillStyle = "rgba(255,103,103,0.001)";
+    ctx.fillStyle = "rgba(247,153,153,0.01)";
     ctx.arc(p3.x, p3.y, 80, 0, Math.PI *2);
     ctx.fill();
 
