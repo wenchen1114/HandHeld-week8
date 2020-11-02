@@ -73,10 +73,10 @@ function render(){
     }
 
     ctx.beginPath();
-    ctx.shadowColor = 'rgba(247,153,153,0.1)';
+    ctx.shadowColor = 'rgba(255,12,12,0.39)';
     ctx.shadowBlur = 15;
-    ctx.fillStyle = "rgba(247,153,153,0.02)";
-    ctx.arc(p3.x, p3.y, 100, 0, Math.PI *2);
+    ctx.fillStyle = "rgba(255,12,12,0.02)";
+    ctx.arc(p3.x, p3.y, 80, 0, Math.PI *2);
     ctx.fill();
 
 }
