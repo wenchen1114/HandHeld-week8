@@ -34,7 +34,7 @@ canvas.addEventListener("mousemove", function(e){
     ctx.shadowColor = 'rgba(255,103,103,0.05)';
     ctx.shadowBlur = 15;
     ctx.fillStyle = "rgba(247,153,153,0.02)";
-    ctx.arc(x, y, 30, 0, Math.PI *2);
+    ctx.arc(x, y, 100, 0, Math.PI *2);
     ctx.fill();
     }
 })
