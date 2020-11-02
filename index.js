@@ -50,16 +50,16 @@ canvas.addEventListener("touchmove", function (e) {
   
     let touch = touches[0];
     p1 = {
-      x: touch.clientX * pixelRatio - canvas.width / 2,
-      y: touch.clientY * pixelRatio - canvas.height / 2
+      x: touch.clientX,
+      y: touch.clientY
     };
   
     touch = touches[1];
   
     if (touch) {
       p2 = {
-        x: touch.clientX * pixelRatio - canvas.width / 2,
-        y: touch.clientY * pixelRatio - canvas.height / 2
+        x: touch.clientX,
+        y: touch.clientY
       };
     }
   
